@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import SocialIconsDiv from "./SocialIcons";
+import data from "../../data/index.json";
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
@@ -48,6 +49,7 @@ function Navbar() {
       </a>
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
+          {data?.sections?.map((item, index) => (
           <li>
             <Link
               onClick={closeMenu}
@@ -56,70 +58,16 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="heroSection"
+              to={item.to}
               className="navbar--content"
             >
-              Home
+              {item.title}
             </Link>
           </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="mySkills"
-              className="navbar--content"
-            >
-              Expertise
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="AboutMe"
-              className="navbar--content"
-            >
-              About Me
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="MyPortfolio"
-              className="navbar--content"
-            >
-              Portfolio
-            </Link>
-          </li>
+          ))}
         </ul>
       </div>
-      <SocialIconsDiv />
-      {/*<Link
-        onClick={closeMenu}
-        activeClass="navbar--active-content"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        to="Contact"
-        className="btn btn-outline-primary"
-      >
-        Contact Me
-  </Link>*/}
-      
+      <SocialIconsDiv />      
     </nav>
   );
 }

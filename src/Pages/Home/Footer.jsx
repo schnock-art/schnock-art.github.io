@@ -1,6 +1,8 @@
 import { Link } from "react-scroll";
 import React from "react";
 import SocialIconsDiv from "./SocialIcons";
+import data from "../../data/index.json";
+
 function Footer() {
   return (
     <footer className="footer--container">
@@ -10,6 +12,7 @@ function Footer() {
         </div>
         <div className="footer--items">
           <ul>
+            {data?.sections?.map((item, index) => (
             <li>
               <Link
                 activeClass="navbar--active-content"
@@ -17,64 +20,13 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="heroSection"
+                to={item.to}
                 className="text-md"
               >
-                Home
+                {item.title}
               </Link>
             </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="mySkills"
-                className="text-md"
-              >
-                Expertise
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="AboutMe"
-                className="text-md"
-              >
-                About Me
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="MyPortfolio"
-                className="text-md"
-              >
-                Portfolio
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="Contact"
-                className="text-md"
-              >
-                Contact
-              </Link>
-            </li>
+            ))}
           </ul>
         </div>
         <SocialIconsDiv/>
