@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "jangebert.com",
+  "homepage": "schnock-art.github.io",
   "private": true,
   "engines": {
     "node": ">=12.x"
