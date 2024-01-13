@@ -1,0 +1,54 @@
+{
+  "workExperience": [
+    {
+      "id": "1",
+      "start": "Feb 2021",
+      "end": "Aug 2023",
+      "role": "Data Scientist/Engineer",
+      "company": "Merkur Innovation Lab",
+      "companyUrl": "https://merkurinnovationlab.at",
+      "location": "Graz, Austria",
+      "description": [
+        "Design and implementation of data pipelines ETLs with different Databases (PostgreSQL, Oracle, MSSQL, Adabas).",
+        "Training and implementation of Machine Learning Models for classification and prediction.",
+        "Onboarding and mentoring of new data engineering team members."
+      ],
+      "image": "./img/career/merkur.jpg",
+      "url": "https://merkurinnovationlab.at"
+    },
+    {
+      "id": "2",
+      "start": "Feb 2020",
+      "end": "Jan 2021",
+      "role": "Data Scientist",
+      "company": "Tiendanube",
+      "companyUrl": "https://www.tiendanube.com",
+      "location": "Buenos Aires, Argentina",
+      "description": [
+        "Developed tailored dashboards for C-Level Management and automated daily reporting processes using Python.",
+        "Designed and set in motion automated A/B testing procedures.",
+        "Instituted a system for automatic bug prioritization, which saved the Head of Product 30 minutes daily.",
+        "Implemented a diagnostic tool to detect and address data pipeline failures across the Data Team."
+      ],
+      "image": "./img/career/tiendanube.png",
+      "url": "https://www.tiendanube.com"
+    },
+    {
+      "id": "3",
+      "start": "Sep 2018",
+      "end": "Jan 2020",
+      "role": "Reservoir Engineer",
+      "company": "SLB",
+      "companyUrl": "https://www.slb.com",
+      "location": "Buenos Aires, Argentina",
+      "description": [
+        "Python and Visual Basic scripting for data cleaning and preparation for simulations.",
+        "Building strong customer relationships with external clients through client visits, support and workshops.",
+        "Instructor for Simulation Software courses and workshops."
+      ],
+      "image": "./img/career/slb.png",
+      "url": "https://www.slb.com"
+    }
+   
+  ]
+}

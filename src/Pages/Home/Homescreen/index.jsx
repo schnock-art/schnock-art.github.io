@@ -8,11 +8,11 @@ export default function Home() {
     async function loadSections() {
       try {
         // Load the content from index.json
-        const content = await import('../../../data/index.json');
+        const sections = await import('../../../data/sections.json');
 
         // Focus on the 'sections' part for dynamic component imports
         const importedSections = await Promise.all(
-          content.sections.map(item => 
+          sections.sections.map(item => 
             import(`../${item.section}`).then(module => module.default)
           )
         );

@@ -1,0 +1,34 @@
+{
+  "sections": [
+    {
+      "id": "1",
+      "title": "Home",
+      "to": "heroSection",
+      "section": "HeroSection"
+    },
+    {
+      "id": "2",
+      "title": "My Expertise",
+      "to": "mySkills",
+      "section": "MySkills"
+    },
+    {
+      "id": "3",
+      "title": "Work Experience",
+      "to": "myWorkExperience",
+      "section": "MyWorkExperience"
+    },
+    {
+      "id": "4",
+      "title": "Education",
+      "to": "myEducation",
+      "section": "MyEducation"
+    },
+    {
+      "id": "6",
+      "title": "Portfolio",
+      "to": "MyPortfolio",
+      "section": "MyPortfolio"
+    }
+  ]
+}

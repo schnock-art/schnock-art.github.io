@@ -1,4 +1,4 @@
-import data from "../../data/index.json";
+import skills from "../../data/skills.json";
 
 export default function MySkills() {
   return (
@@ -7,7 +7,7 @@ export default function MySkills() {
         <h2 className="skills--section--heading">Expertise</h2>
       </div>
       <div className="skills--section--container">
-        {data?.skills?.map((item, index) => (
+        {skills?.skills?.map((item, index) => (
           <div key={index} className="skills--section--card">
             <div className="skills--section--img">
               <img src={item.src} width={250} height={250}/>

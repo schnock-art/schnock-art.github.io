@@ -1,0 +1,32 @@
+{
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/portfolio/arxiv_db.png",
+      "title": "ArXiv Scraper with MongoDB Integration",
+      "description": "Papers are scraped from ArXiv and stored into a NoSQL MongoDB database, ensuring robust and scalable data management.",
+      "link": "https://github.com/schnock-art/arxiv-db/tree/main/arxiv_crawler"
+    },
+    {
+      "id": "2",
+      "src": "./img/portfolio/google_maps_scraper.png",
+      "title": "Google Maps Scraper",
+      "description": "This script is designed to scrape data from Google Maps using specific keywords, geographic coordinates, and other parameters. It allows users to gather data from Google Maps listings.",
+      "link": "https://github.com/schnock-art/google-maps-scraper"
+    },
+    {
+      "id": "3",
+      "src": "./img/portfolio/machine_learning_experiments.png",
+      "title": "Machine Learning Experiments",
+      "description": "Exploring some Machine Learning Algorithms for image manipulation, creation and reconstruction. Autoencoders, GANs, Cellular Automata.",
+      "link": "https://github.com/schnock-art/Machine-Learning-Experiments"
+    },
+    {
+      "id": "4",
+      "src": "./img/portfolio/schnocks_digital_atelier.png",
+      "title": "Schnocks Digital Atelier",
+      "description": "A set of experiments in algorithmic art, using Kmeans clustering and custom algorithms to convert images into unique art pieces.",
+      "link": "https://github.com/schnock-art/schnocks_digital_atelier"
+    }
+  ]
+}

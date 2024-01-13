@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import SocialIconsDiv from "./SocialIcons";
-import data from "../../data/index.json";
+import sections from "../../data/sections.json";
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
@@ -49,7 +49,7 @@ function Navbar() {
       </a>
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
-          {data?.sections?.map((item, index) => (
+          {sections?.sections?.map((item, index) => (
           <li>
             <Link
               onClick={closeMenu}
@@ -65,8 +65,8 @@ function Navbar() {
             </Link>
           </li>
           ))}
-        </ul>
-      </div>
+        </ul>     
+      </div>  
       <SocialIconsDiv />      
     </nav>
   );

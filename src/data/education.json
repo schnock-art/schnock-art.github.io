@@ -1,0 +1,34 @@
+{
+  "education": [
+    {
+      "id": "1",
+      "start": "2020",
+      "end": "2022",
+      "location": "Graz, Austria",
+      "title": "Msc. Data and Information Science",
+      "school": "Fachhochschule Joanneum",
+      "image": "./img/education/fh.png",
+      "url": "https://www.fh-joanneum.at/data-science-and-artificial-intelligence/master/"
+    },
+    {
+      "id": "2",
+      "start": "2019",
+      "end": "2019",
+      "location": "Buenos Aires, Argentina",
+      "title": "Diploma in Applied Data Science",
+      "school": "Universidad Austral de Buenos Aires",
+      "image": "./img/education/austral.jpg",
+      "url": "https://www.austral.edu.ar/ingenieria-posgrados/diplomaturas/diplomatura-en-ciencia-de-datos-aplicada/"
+    },
+    {
+      "id": "3",
+      "start": "2012",
+      "end": "2018",
+      "location": "Buenos Aires, Argentina",
+      "title": "Petroleum Engineer",
+      "school": "Instituto Tecnológico de Buenos Aires",
+      "image": "./img/education/itba.png",
+      "url": "https://www.itba.edu.ar/grado/ingenieria-en-petroleo/"
+    }  
+  ]
+}

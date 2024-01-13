@@ -1,7 +1,7 @@
 import { Link } from "react-scroll";
 import React from "react";
 import SocialIconsDiv from "./SocialIcons";
-import data from "../../data/index.json";
+import sections from "../../data/sections.json";
 
 function Footer() {
   return (
@@ -12,7 +12,7 @@ function Footer() {
         </div>
         <div className="footer--items">
           <ul>
-            {data?.sections?.map((item, index) => (
+            {sections?.sections?.map((item, index) => (
             <li>
               <Link
                 activeClass="navbar--active-content"

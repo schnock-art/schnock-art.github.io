@@ -1,0 +1,28 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/expertise/data_engineering.png",
+      "title": "Data Engineering and Pipeline Management",
+      "description": "Expertise in designing and implementing data pipelines and ETL processes with various databases (PostgreSQL, MongoDB, Oracle, MSSQL, Adabas)."
+    },
+    {
+      "id": "2",
+      "src": "./img/expertise/machine_learning.png",
+      "title": "Machine Learning and Data Analytics",
+      "description": "Experience in training and implementing machine learning models for classification and prediction, as well as creating dashboards and automating reports."
+    },
+    {
+      "id": "3",
+      "src": "./img/expertise/programming_automation.png",
+      "title": "Programming and Automation",
+      "description": "Strong proficiency in Python for various purposes including report automation, A/B testing automation, data manipulation, and pipeline failure identification."
+    },
+    {
+      "id": "4",
+      "src": "./img/expertise/team_lead_mentoring2.png",
+      "title": "Team Leadership and Mentorship",
+      "description": "Experience in onboarding and mentoring new data engineering team members, as well as building strong customer relationships."
+    }
+  ]
+}

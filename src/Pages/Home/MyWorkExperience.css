@@ -1,0 +1,90 @@
+.work--section {
+    padding: 133.333px 85.333px 133.333px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    background-color: var(--bg-shade);
+}
+
+.work-section--heading {
+    
+    font-size: 74.667px;
+    padding: 50px 20px 50px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    background-color: var(--bg-shade);
+
+}
+
+.career-table-container {
+    font-family: Arial, sans-serif;
+    color: var(--darkblue);
+    margin: 15px;
+  }
+  
+  .career-table {
+    width: 95%;
+    border-collapse: collapse;
+  }
+  
+  .career-table th, .career-table td {
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+
+  
+  .career-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+    align-self: stretch;
+  }
+  
+  .career-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+
+  .career--item-img > img {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .career--item-description {
+    gap: 10px;
+    width: 600px;
+  }
+
+  /* Prevent wrapping for specific columns */
+.career-table td:nth-child(2),
+.career-table td:nth-child(3),
+.career-table td:nth-child(4),
+.career-table td:nth-child(5) {
+  white-space: nowrap;
+  padding: 1px;
+}
+
+
+
+.career-table td:nth-child(1) {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 150px;
+}
+
+.achievement-item {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  width: 80%;
+  height: 100%;
+  padding: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: var(--bg-shade);
+}
