@@ -9,7 +9,7 @@ export default function MyEducation() {
       <div className="education--container-box">
         <div className="education-table-container">
           {/*<p className="sub--title">Recent Projects</p>*/}
-          <h2 className="section--heading">Work Experience</h2>
+          <h2 className="section--heading">Education</h2>
           <table className="education-table">
           <thead>
             <tr>

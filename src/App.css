@@ -704,6 +704,10 @@ input[type="checkbox"] {
   .nav__hamburger.active :nth-child(3) {
     transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
   }
+
+  .btn-navbar {
+    display: none;
+  }
 }
 
 /* Responsive Screens Ends*/

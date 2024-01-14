@@ -6,7 +6,7 @@ export default function     () {
         <div className="footer--social--icon">
           <ul>
             <li>
-              <a
+              <a className='cv-download'
                 href={cvPdf}
                 download="CV Jan Gebert"
                 target="_blank"
