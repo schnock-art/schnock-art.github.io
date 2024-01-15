@@ -12,8 +12,8 @@ export default function HeroSection() {
             Data Engineer
             <br />
             Petroleum Engineer
-            <br />
-            Artist
+            {/*<br />
+            Artist*/}
           </h1>
           <p className="hero--section-description">
           I am a seasoned Data Scientist and Engineer with a notable tenure at Merkur Innovation Lab in Graz, Austria, where I excelled in data warehouse design, ETL processes, and predictive modeling. 
@@ -25,7 +25,7 @@ export default function HeroSection() {
           My career also includes impactful work as a Petroleum Engineer at Schlumberger, where I combined technical expertise with client relationship management.
           </p>
           <p className="hero--section-description">
-          Complementing my technical skills, I explore the artistic realm of algorithmic art using Python, showcasing my unique blend of analytical and creative talents.
+          Complementing my technical skills, I explore the artistic realm of algorithmic art using Python, showcasing a unique blend of analytical and creative talents.
           </p>
 
           <a
