@@ -26,6 +26,12 @@
     },
     {
       "id": "5",
+      "title": "Languages",
+      "to": "myLanguages",
+      "section": "MyLanguages"
+    },
+    {
+      "id": "6",
       "title": "Portfolio",
       "to": "MyPortfolio",
       "section": "MyPortfolio"

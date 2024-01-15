@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Footer from "../Footer";
 
 export default function Home() {
   const [sections, setSections] = useState([]);
@@ -31,7 +30,7 @@ export default function Home() {
       {sections.map((Section, index) => (
         <Section key={index} />
       ))}
-      <Footer />
+      
     </>
   );
 }

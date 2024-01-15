@@ -1,0 +1,32 @@
+{
+  "languages": [
+    {
+      "id": "1",
+      "language": "Spanish",
+      "level": "Native/Bilingual",
+      "certification": "",
+      "url": ""
+    },
+    {
+      "id": "2",
+      "language": "German",
+      "level": "Native/Bilingual",
+      "certification": "Sprachdiplom C1",
+      "url": ""
+    },
+    {
+      "id": "3",
+      "language": "English",
+      "level": "Proficient",
+      "certification": "IELTS 7.5",
+      "url": ""
+    },
+    {
+      "id": "4",
+      "language": "Norwegian",
+      "level": "Basic",
+      "certification": "VOX B1",
+      "url": ""
+    }    
+  ]
+}

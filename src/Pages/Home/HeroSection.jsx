@@ -11,6 +11,8 @@ export default function HeroSection() {
             <br />
             Data Engineer
             <br />
+            Petroleum Engineer
+            <br />
             Artist
           </h1>
           <p className="hero--section-description">
@@ -20,7 +22,7 @@ export default function HeroSection() {
           Prior to this, at Tiendanube S.A. in Buenos Aires, I automated key reports and enhanced data-driven decision-making. 
           </p>
           <p className="hero--section-description">
-          My career also includes impactful work as a Reservoir Engineer at Schlumberger, where I combined technical expertise with client relationship management.
+          My career also includes impactful work as a Petroleum Engineer at Schlumberger, where I combined technical expertise with client relationship management.
           </p>
           <p className="hero--section-description">
           Complementing my technical skills, I explore the artistic realm of algorithmic art using Python, showcasing my unique blend of analytical and creative talents.

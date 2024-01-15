@@ -711,3 +711,9 @@ input[type="checkbox"] {
 }
 
 /* Responsive Screens Ends*/
+@media print {
+  .cv {
+    max-width: 794px; /* Adjust this based on your PDF page size */
+    margin: auto;
+  }
+}

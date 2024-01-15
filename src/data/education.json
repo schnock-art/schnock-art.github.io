@@ -22,6 +22,16 @@
     },
     {
       "id": "3",
+      "start": "2016",
+      "end": "2016",
+      "location": "Trondheim, Norway",
+      "title": "Student Exchange, Petroleum Engineer",
+      "school": "Norwegian University of Science and Technology",
+      "image": "./img/education/ntnu.png",
+      "url": "https://www.ntnu.no/studier/mtpetr"
+    },
+    {
+      "id": "4",
       "start": "2012",
       "end": "2018",
       "location": "Buenos Aires, Argentina",

@@ -34,7 +34,7 @@ function Footer() {
       <hr className="divider" />
       <div className="footer--content--container">
         <p className="footer--content">Made by me</p>
-        
+        {/*
         <div className="footer--social--icon">
           <ul>
             <li>
@@ -78,6 +78,7 @@ function Footer() {
             </li>
           </ul>
         </div>
+        */}
       </div>
     </footer>
   );
