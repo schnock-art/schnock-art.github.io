@@ -177,6 +177,7 @@ h2 {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 100;
 }
 .navbar--items > ul {
   list-style: none;
@@ -669,7 +670,7 @@ input[type="checkbox"] {
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 255, 255);
-    top: -300%;
+    top: -290%;
     left: 0;
     width: 100%;
     transition: all ease-in-out 0.8s;
@@ -691,7 +692,7 @@ input[type="checkbox"] {
     z-index: -1000;
   }
   .navbar--items.active {
-    top: 30px;
+    top: 50px;
   }
   .nav__hamburger.active :nth-child(1) {
     transform: rotate(45deg) translate(0.45rem, 0.1875rem);
