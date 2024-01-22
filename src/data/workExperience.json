@@ -9,8 +9,10 @@
       "companyUrl": "https://merkurinnovationlab.at",
       "location": "Graz, Austria",
       "description": [
-        "Design and implementation of data pipelines ETLs with different Databases (PostgreSQL, Oracle, MSSQL, Adabas).",
-        "Training and implementation of Machine Learning Models for classification and prediction.",
+        "Processing of large data sets. Using this to identify trends and present informed conclusions to support strategic business decisions.",
+        "Cleaning, aggregation and organization of data from different sources and transfer to a data warehouse.",
+        "Development of data modeling processes to create algorithms and predictive models as a basis for carrying out various analyses.",
+        "Design, implement and manage the organization's data architecture.",
         "Onboarding and mentoring of new data engineering team members."
       ],
       "image": "./img/career/merkur.jpg",

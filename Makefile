@@ -4,3 +4,7 @@ install-gh:
 
 deploy-gh:
 	npm run deploy
+
+# Mobile debugging
+# https://medium.com/technoetics/testing-your-website-on-desktop-and-live-mobile-device-simultaneously-6a2663ab018
+# adb reverse tcp:3000 tcp:3000

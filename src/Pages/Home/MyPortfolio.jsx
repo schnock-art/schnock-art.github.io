@@ -1,5 +1,6 @@
 import portfolio from "../../data/portfolio.json";
 import { SocialIcon } from 'react-social-icons'
+import "../../App.css";
 
 export default function MyPortfolio() {
   return (
@@ -12,7 +13,7 @@ export default function MyPortfolio() {
         <div>
         <a href="https://github.com/schnock-art" target="_blank" rel="noopener noreferrer">
           <button className="btn btn-github">
-            <SocialIcon url="https://github.com/schnock-art" />
+            <SocialIcon className="social-icon" url="https://github.com/schnock-art" />
             Visit My GitHub
           </button>
         </a>

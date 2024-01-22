@@ -89,11 +89,13 @@ p {
   align-items: center;
   box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.95);
   gap: 16px;
+
 }
 .btn-github:hover {
   color: var(--github);
   background-color: var(--white);
 }
+
 /* Global CSS Ends */
 /* Main Headings */
 
@@ -277,11 +279,11 @@ h2 {
 }
 .skills--section--card {
   display: flex;
-  padding: 32px;
+  padding: 20px;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
-  flex: 1 0 0;
+  flex: 1 1 0;
   border-radius: 10.6px;
   background: var(--bg-shade);
   min-height: 250px;
@@ -660,19 +662,17 @@ input[type="checkbox"] {
     display: flex;
     z-index: 200;
   }
-  .navbar--items {
-    display: flex;
-  }
+
   .navbar--items {
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 255, 255);
-    top: -20rem;
+    top: -300%;
     left: 0;
     width: 100%;
-    transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.8s;
   }
   .navbar--items ul {
     flex-direction: column;

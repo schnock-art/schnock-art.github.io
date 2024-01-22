@@ -16,10 +16,13 @@ export default function HeroSection() {
             Artist*/}
           </h1>
           <p className="hero--section-description">
-          I am a seasoned Data Scientist and Engineer with a notable tenure at Merkur Innovation Lab in Graz, Austria, where I excelled in data warehouse design, ETL processes, and predictive modeling. 
+          I am a seasoned Data Scientist and Engineer, holding a Master's Degree in Data and Information Science. 
           </p>
           <p className="hero--section-description">
-          Prior to this, at Tiendanube S.A. in Buenos Aires, I automated key reports and enhanced data-driven decision-making. 
+          My professional journey includes a notable tenure at Merkur Innovation Lab in Graz, Austria, where I excelled in data warehouse design, ETL processes, and predictive modeling. 
+          </p>
+          <p className="hero--section-description">
+          Prior to this, at Tiendanube S.A. in Buenos Aires, I automated key reports, A/B tests and enhanced data-driven decision-making. 
           </p>
           <p className="hero--section-description">
           My career also includes impactful work as a Petroleum Engineer at Schlumberger, where I combined technical expertise with client relationship management.
