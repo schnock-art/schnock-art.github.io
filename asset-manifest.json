@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cea3b634.css",
-    "main.js": "/static/js/main.f2473847.js",
+    "main.js": "/static/js/main.b1fd5d01.js",
     "static/js/48.aceebddb.chunk.js": "/static/js/48.aceebddb.chunk.js",
     "static/js/843.498ba9fc.chunk.js": "/static/js/843.498ba9fc.chunk.js",
     "static/js/748.264f357c.chunk.js": "/static/js/748.264f357c.chunk.js",
@@ -9,10 +9,10 @@
     "static/js/830.aae96258.chunk.js": "/static/js/830.aae96258.chunk.js",
     "static/js/703.7f71ffae.chunk.js": "/static/js/703.7f71ffae.chunk.js",
     "static/js/379.d49e6a42.chunk.js": "/static/js/379.d49e6a42.chunk.js",
-    "static/media/CV Jan Gebert.pdf": "/static/media/CV Jan Gebert.83303cde77bba0d156a1.pdf",
+    "static/media/CV Jan Gebert.pdf": "/static/media/CV Jan Gebert.e069ea13a67cfc84143e.pdf",
     "index.html": "/index.html",
     "main.cea3b634.css.map": "/static/css/main.cea3b634.css.map",
-    "main.f2473847.js.map": "/static/js/main.f2473847.js.map",
+    "main.b1fd5d01.js.map": "/static/js/main.b1fd5d01.js.map",
     "48.aceebddb.chunk.js.map": "/static/js/48.aceebddb.chunk.js.map",
     "843.498ba9fc.chunk.js.map": "/static/js/843.498ba9fc.chunk.js.map",
     "748.264f357c.chunk.js.map": "/static/js/748.264f357c.chunk.js.map",
@@ -23,6 +23,6 @@
   },
   "entrypoints": [
     "static/css/main.cea3b634.css",
-    "static/js/main.f2473847.js"
+    "static/js/main.b1fd5d01.js"
   ]
 }
