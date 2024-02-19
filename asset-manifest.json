@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.cea3b634.css",
-    "main.js": "/static/js/main.b1fd5d01.js",
+    "main.css": "/static/css/main.b0970fea.css",
+    "main.js": "/static/js/main.2a53f853.js",
     "static/js/48.aceebddb.chunk.js": "/static/js/48.aceebddb.chunk.js",
     "static/js/843.498ba9fc.chunk.js": "/static/js/843.498ba9fc.chunk.js",
-    "static/js/748.264f357c.chunk.js": "/static/js/748.264f357c.chunk.js",
+    "static/js/748.dfc1cd36.chunk.js": "/static/js/748.dfc1cd36.chunk.js",
     "static/js/910.1e80ae38.chunk.js": "/static/js/910.1e80ae38.chunk.js",
     "static/js/830.aae96258.chunk.js": "/static/js/830.aae96258.chunk.js",
     "static/js/703.7f71ffae.chunk.js": "/static/js/703.7f71ffae.chunk.js",
     "static/js/379.d49e6a42.chunk.js": "/static/js/379.d49e6a42.chunk.js",
-    "static/media/CV Jan Gebert.pdf": "/static/media/CV Jan Gebert.e069ea13a67cfc84143e.pdf",
+    "static/media/CV Jan Gebert.pdf": "/static/media/CV Jan Gebert.f27dd2b19b584cd79c73.pdf",
     "index.html": "/index.html",
-    "main.cea3b634.css.map": "/static/css/main.cea3b634.css.map",
-    "main.b1fd5d01.js.map": "/static/js/main.b1fd5d01.js.map",
+    "main.b0970fea.css.map": "/static/css/main.b0970fea.css.map",
+    "main.2a53f853.js.map": "/static/js/main.2a53f853.js.map",
     "48.aceebddb.chunk.js.map": "/static/js/48.aceebddb.chunk.js.map",
     "843.498ba9fc.chunk.js.map": "/static/js/843.498ba9fc.chunk.js.map",
-    "748.264f357c.chunk.js.map": "/static/js/748.264f357c.chunk.js.map",
+    "748.dfc1cd36.chunk.js.map": "/static/js/748.dfc1cd36.chunk.js.map",
     "910.1e80ae38.chunk.js.map": "/static/js/910.1e80ae38.chunk.js.map",
     "830.aae96258.chunk.js.map": "/static/js/830.aae96258.chunk.js.map",
     "703.7f71ffae.chunk.js.map": "/static/js/703.7f71ffae.chunk.js.map",
     "379.d49e6a42.chunk.js.map": "/static/js/379.d49e6a42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cea3b634.css",
-    "static/js/main.b1fd5d01.js"
+    "static/css/main.b0970fea.css",
+    "static/js/main.2a53f853.js"
   ]
 }
