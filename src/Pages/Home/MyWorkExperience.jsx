@@ -24,17 +24,18 @@ export default function MyWorkExperience() {
             {workExperience.workExperience.map((item, index) => (
               <tr key={index} onClick={() => window.open(item.url, '_blank')} style={{ cursor: 'pointer' }}>
                 <td className="career--item-img" ><img src={item.image} width={250} height={250} /></td>
+                
+                <td className="career--item-description">
+                  <ul>
+                    {item.description.map((achievementItem, index) => (
+                    <li className="achievement-item">{achievementItem}</li>
+                  ))}
+                  </ul>
+                </td>
                 <td>{item.role}</td>
                 <td>{item.company}</td>
                 <td>{item.start} - {item.end}</td>
                 <td>{item.location}</td>
-                <td className="career--item-description">
-                  <ul>
-                    {item.description.map((achievementItem, index) => (
-                  <li className="achievement-item">{achievementItem}</li>
-                ))}
-                </ul>
-                </td>
               </tr>
             ))}
           </tbody>

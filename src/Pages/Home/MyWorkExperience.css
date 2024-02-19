@@ -2,128 +2,128 @@
 
 .work-section--heading {
     
-    font-size: 74.667px;
-    padding: 50px 20px 50px;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    background-color: var(--bg-shade);
+  font-size: 74.667px;
+  padding: 50px 20px 50px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  background-color: var(--bg-shade);
 
 }
 
 .career-table-container {
-    font-family: Arial, sans-serif;
-    color: var(--darkblue);
-    margin: 15px;
-  }
-  
-  .career-table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  .career-table th, .career-table td {
-    padding: 5px;
-    align-items: center;
-    text-align: center;
-    font-size: 18px;
-  }
-  
+  font-family: Arial, sans-serif;
+  color: var(--darkblue);
+  margin: 15px;
+}
 
-  
-  .career-table tbody tr:nth-child(odd) {
-    background-color: #f9f9f9;
-    align-self: stretch;
-  }
-  
-  .career-table tbody tr:hover {
-    background-color: #f1f1f1;
-  }
+.career-table {
+  width: 100%;
+  border-collapse: collapse;
+}
 
-  .career--item-img > img {
-    border-radius: 20px;
-    height: 100%;
-    width: 100%;
-  }
-  
-  .career--item-description {
-    gap: 1px;
-    width: 500px;
-  }
+.career-table th, .career-table td {
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+}
 
-  /* Prevent wrapping for specific columns */
-.career-table td:nth-child(2),
+
+
+.career-table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+  align-self: stretch;
+}
+
+.career-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.career--item-img > img {
+  border-radius: 20px;
+  height: 250px;
+  width: 250px;
+}
+
+.career--item-description {
+  gap: 1px;
+  width: 500px;
+}
+
+/* Prevent wrapping for specific columns */
 .career-table td:nth-child(3),
 .career-table td:nth-child(4),
-.career-table td:nth-child(5) {
-  white-space: nowrap;
-  padding-right: 20px;
-  gap:1px;
+.career-table td:nth-child(5),
+.career-table td:nth-child(6) {
+white-space: nowrap;
+padding-right: 20px;
+gap:1px;
 }
 
 .career-table td:nth-child(1) {
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 150px;
+padding-left: 2px;
+padding-right: 2px;
+width: 250px;
 }
 
 .achievement-item {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1px;
-  width: 80%;
-  height: 100%;
-  padding: 15px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  border-radius: 10px;
-  margin: 10px;
-  background-color: var(--bg-shade);
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 1px;
+width: 80%;
+height: 100%;
+padding: 15px;
+padding-bottom: 10px;
+padding-top: 10px;
+border-radius: 10px;
+margin: 10px;
+background-color: var(--bg-shade);
 }
 
 @media screen and (max-width: 1200px) {
-  .career-table-container {
-    overflow-x: auto;
-  }
-  .career-table {
-    width: auto;
-  }
+.career-table-container {
+  overflow-x: auto;
+}
+.career-table {
+  width: auto;
+}
 
-  .career-table th, .career-table td {
-    padding-right: 50px;
-    align-items: center;
-    text-align: center;
-    font-size: 18px;
-  }
-  .career-table td:nth-child(2),
-  .career-table td:nth-child(3),
-  .career-table td:nth-child(4),
-  .career-table td:nth-child(5) {
-    font-size: 16px;
-    padding-right: 20px;
-    padding-left: 20px;
-  }
+.career-table th, .career-table td {
+  padding-right: 50px;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+}
+.career-table td:nth-child(3),
+.career-table td:nth-child(4),
+.career-table td:nth-child(5),
+.career-table td:nth-child(6) {
+  font-size: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
 
 
-  .career-table td:nth-child(1) {
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 150px;
-  }
+.career-table td:nth-child(1) {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 150px;
+}
 
-  .career--item-description {
-    font-size: 5px;
-  }
+.career--item-description {
+  font-size: 5px;
+}
 
-  .achievement--item {
-    font-size: 5px;
-  }
+.achievement--item {
+  font-size: 5px;
+}
 
-  .career--item-img > img {
-    border-radius: 20px;
-    height: 100px;
-    width: 100px;
-  }
-  
+.career--item-img > img {
+  border-radius: 20px;
+  height: 100px;
+  width: 100px;
+}
+
 }
