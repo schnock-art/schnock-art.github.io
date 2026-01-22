@@ -13,11 +13,11 @@ export default function MyWorkExperience() {
           <thead>
             <tr>
               <th></th>
+              <th>Achievements</th>
               <th>Role</th>
               <th>Company</th>
               <th>Period</th>
               <th>Location</th>
-              <th>Achievements</th>
             </tr>
           </thead>
           <tbody>

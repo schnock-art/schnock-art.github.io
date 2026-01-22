@@ -1,0 +1,14 @@
+{
+    "education": [
+      {
+        "id": "1",
+        "awarded": "08-04-2024",
+        "valid-until": "09-04-2025",
+        "title": "DP-203 Azure Data Engineer Associate",
+        "institution": "Microsoft",
+        "url": "https://learn.microsoft.com/en-us/certifications/exams/dp-203",
+        "Credential ID": "8ECB661FD7E0112F",
+        "Certification number": "8883BD-FC3499",
+      },
+    ]
+}

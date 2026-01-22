@@ -2,6 +2,24 @@
   "workExperience": [
     {
       "id": "1",
+      "start": "June 2024",
+      "end": "Present",
+      "role": "Senior Machine Learning Engineer",
+      "company": "VAPAR",
+      "companyUrl": "https://www.vapar.co/",
+      "location": "Australia",
+      "description": [
+        "Processing of large data sets. Using this to identify trends and present informed conclusions to support strategic business decisions.",
+        "Cleaning, aggregation and organization of data from different sources and transfer to a data warehouse.",
+        "Development of data modeling processes to create algorithms and predictive models as a basis for carrying out various analyses.",
+        "Design, implement and manage the organization's data architecture.",
+        "Onboarding and mentoring of new data engineering team members."
+      ],
+      "image": "./img/career/vapar.png",
+      "url": "https://www.vapar.co/"
+    },
+    {
+      "id": "2",
       "start": "Feb 2021",
       "end": "Aug 2023",
       "role": "Data Scientist/Engineer",
@@ -19,7 +37,7 @@
       "url": "https://merkurinnovationlab.at"
     },
     {
-      "id": "2",
+      "id": "3",
       "start": "Feb 2020",
       "end": "Jan 2021",
       "role": "Data Scientist",
@@ -36,7 +54,7 @@
       "url": "https://www.tiendanube.com"
     },
     {
-      "id": "3",
+      "id": "4",
       "start": "Sep 2018",
       "end": "Jan 2020",
       "role": "Reservoir Engineer",
