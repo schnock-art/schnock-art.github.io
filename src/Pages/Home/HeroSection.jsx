@@ -15,19 +15,27 @@ export default function HeroSection() {
             Artist*/}
           </h1>
           <p className="hero--section-description">
-          I am a seasoned Data Scientist and Engineer, holding a Master's Degree in Data and Information Science. 
+          I’m a Data Scientist and Machine Learning Engineer with a background in engineering and a Master’s degree in Data and Information Science.
           </p>
+
           <p className="hero--section-description">
-          My professional journey includes a notable tenure at Merkur Innovation Lab in Graz, Austria, where I excelled in data warehouse design, ETL processes, and predictive modeling. 
+          I currently work at VAPAR Innovation in Australia, where I design and deploy computer vision models and data pipelines, using user feedback and performance metrics to continuously improve machine learning systems.
           </p>
+
           <p className="hero--section-description">
-          Prior to this, at Tiendanube S.A. in Buenos Aires, I automated key reports, A/B tests and enhanced data-driven decision-making. 
+          Previously, I worked at Merkur Innovation Lab in Graz, designing a data platform, ETL pipelines, and predictive models for a healthcare startup.
           </p>
+
           <p className="hero--section-description">
-          My career also includes impactful work as a Petroleum Engineer at Schlumberger, where I combined technical expertise with client relationship management.
+          Before that, at Tiendanube in Buenos Aires, I partnered closely with product teams to automate reporting, support A/B testing, and enable data-driven decision-making for an e-commerce platform at scale.
           </p>
+
           <p className="hero--section-description">
-          Complementing my technical skills, I explore the artistic realm of algorithmic art using Python, showcasing a unique blend of analytical and creative talents.
+          Earlier in my career, I worked as a Petroleum Engineer at Schlumberger, developing a strong engineering foundation building predictive models.
+          </p>
+
+          <p className="hero--section-description">
+          Alongside my professional work, I explore algorithmic and generative art using Python, combining analytical thinking with creativity and a strong interest in image-based systems.
           </p>
 
           <a

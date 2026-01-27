@@ -9,10 +9,10 @@ export default function Career() {
           {/*<p className="section--title">About</p>*/}
           <h1 className="skills-section--heading">About Me</h1>
           <p className="hero--section-description">
-          I am a seasoned Data Scientist and Engineer with a notable tenure at Merkur Innovation Lab in Graz, Austria, where I excelled in data warehouse design, ETL processes, and predictive modeling. Prior to this, at Tiendanube S.A. in Buenos Aires, I automated key reports and enhanced data-driven decision-making. My career also includes impactful work as a Reservoir Engineer at Schlumberger, where I combined technical expertise with client relationship management.
+          I am a Data Scientist and Machine Learning Engineer with a Master’s degree in Data and Information Science and over five years of experience working on analytics, machine learning, and data platforms for user-centric products. I have built scalable data systems and predictive models at Merkur Innovation Lab, driven product analytics and experimentation at Tiendanube, and currently work on computer vision and machine learning applications at Vapar. Earlier in my career, I worked as a Petroleum Engineer at Schlumberger, developing a strong engineering mindset through complex, real-world problems.
           </p>
           <p className="hero--section-description">
-          Complementing my technical skills, I explore the artistic realm of algorithmic art using Python, showcasing my unique blend of analytical and creative talents.
+          Alongside my professional work, I explore algorithmic and generative art using Python, combining analytical thinking with creative expression.
           </p>
         </div>
       </div>
