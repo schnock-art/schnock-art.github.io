@@ -18,12 +18,12 @@ export default function     () {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/data-scientist-engineer-tech-lead-jan-gebert/"
+                href="https://www.linkedin.com/in/data-scientist-engineer-jan-gebert/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
               >
-                <SocialIcon url="https://www.linkedin.com/in/data-scientist-engineer-tech-lead-jan-gebert/" />
+                <SocialIcon url="https://www.linkedin.com/in/data-scientist-engineer-jan-gebert/" />
               </a>
             </li>
             <li>
